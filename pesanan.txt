@@ -1,0 +1,1 @@
+{"kode transaksi": "20240118094144", "Nama Pelanggan": "Pyiqa", "orders": [{"item": "nasi goreng", "porsi": 1, "harga": 15000}], "total harga": 15000, "kembalian": 5000}

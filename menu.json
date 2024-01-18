@@ -1,0 +1,17 @@
+{
+  "nasi goreng": {"harga":  15000, "kode":  "1"},
+  "mie goreng": {"harga":  12000, "kode":  "2"},
+  "ayam goreng": {"harga":  20000, "kode":  "3"},
+  "soto ayam": {"harga":  10000, "kode":  "4"},
+  "rendang": {"harga":  25000, "kode":  "5"},
+  "ikan nila": {"harga":  20000, "kode":  "6"},
+  "ikan gurame": {"harga":  25000, "kode":  "7"},
+  "cumi": {"harga":  20000, "kode":  "8"},
+  "lobster": {"harga":  40000, "kode":  "9"},
+  "es teh": {"harga":  5000, "kode":  "10"},
+  "es jeruk": {"harga":  6000, "kode":  "11"},
+  "anggur": {"harga":  10000, "kode":  "12"},
+  "jus melon": {"harga":  10000, "kode":  "13"},
+  "jus durian": {"harga":  12000, "kode":  "14"},
+  "jus alpukat": {"harga":  11000, "kode":  "15"}
+}
