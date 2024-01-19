@@ -1,0 +1,45 @@
+Login with python language
+
+i learned this program from: https://www.youtube.com/watch?v=FedBylGRq-M&t=227s
+
+Source code:
+
+def login(name, password):
+    with open("users.txt", "r") as file:
+        for i in file:
+            a, b = i.strip().split(",")
+            if a == name and b == password:
+                print("Login berhasil!")
+                return True
+    print("Salah login! Register dulu.....")
+    return False
+
+def register(name, password):
+    with open("users.txt", "a") as file:
+        file.write(f"{name},{password}\n")
+
+def access(option):
+    global name
+    if option == "login":
+        name = input("Masukan ID: ")
+        password = input("Masukan password: ")
+        login(name, password)
+    else:
+        print("Masukan ID dan password anda yang baru!")
+        name = input("masukan ID: ")
+        password = input("Masukan password: ")
+        register(name, password)
+        print("Berhasil register!")
+
+def begin():
+    global option
+    print("Login ke persekutuan kita!")
+    print("ketik 'login' jika anda member kami")
+    print("ketik 'register' jika anda bukan member kami")
+    option = input("Masukan opsi (login/register): ")
+    if option not in ["login", "register"]:
+        begin()
+
+if __name__ == "__main__":
+    begin()
+    access(option="login")
